@@ -10,8 +10,8 @@
     "languages": ["th"],
     "nsfw": false,
     "icon": "https://nyaa.si/static/favicon.png",
-    "update": "REPLACE_WITH_YOUR_HOSTED_INDEX_JSON_URL",
-    "code": "REPLACE_WIThttps://github.com/popvb/Extensions",
+    "update": "https://raw.githubusercontent.com/popvb/Extensions/refs/heads/main/hayase-index.json",
+    "code": "https://raw.githubusercontent.com/popvb/Extensions/refs/heads/main/nyaa_thaisub.js",
     "options": {
       "source": {
         "type": "string",
