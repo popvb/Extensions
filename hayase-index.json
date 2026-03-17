@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Nyaa (Thai-Sub filter)",
+    "id": "nyaa_thaisub",
+    "version": "1.0.0",
+    "type": "torrent",
+    "accuracy": "low",
+    "ratio": 0,
+    "media": "sub",
+    "languages": ["TH"],
+    "url": "aHR0cHM6Ly9ueWFhLnNp",
+    "icon": "https://nyaa.si/static/favicon.png",
+    "update": "",
+    "code": "REPLACE_WITH_YOUR_HOSTED_JS_URL",
+    "options": {
+      "source": {
+        "type": "string",
+        "description": "Indexer to query. Currently supported: nyaa",
+        "default": "nyaa"
+      },
+      "thaiOnly": {
+        "type": "boolean",
+        "description": "Filter results to Thai-sub keywords (TH/Thai/ซับไทย).",
+        "default": true
+      },
+      "extraKeywords": {
+        "type": "string",
+        "description": "Extra keywords to add to search query (space separated).",
+        "default": ""
+      },
+      "excludeKeywords": {
+        "type": "string",
+        "description": "Keywords to exclude (space separated).",
+        "default": ""
+      },
+      "maxResults": {
+        "type": "number",
+        "description": "Maximum results to return per search.",
+        "default": 20
+      }
+    }
+  }
+]
+
