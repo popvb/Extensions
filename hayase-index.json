@@ -1,17 +1,17 @@
 [
   {
     "name": "Nyaa (Thai-Sub filter)",
-    "id": "nyaa_thaisub",
+    "id": "hayase.extension.nyaa_thaisub",
     "version": "1.0.0",
     "type": "torrent",
     "accuracy": "low",
     "ratio": 0,
     "media": "sub",
-    "languages": ["TH"],
-    "url": "aHR0cHM6Ly9ueWFhLnNp",
+    "languages": ["th"],
+    "nsfw": false,
     "icon": "https://nyaa.si/static/favicon.png",
-    "update": "",
-    "code": "REPLACE_WITH_YOUR_HOSTED_JS_URL",
+    "update": "REPLACE_WITH_YOUR_HOSTED_INDEX_JSON_URL",
+    "code": "REPLACE_WIThttps://github.com/popvb/Extensions",
     "options": {
       "source": {
         "type": "string",
